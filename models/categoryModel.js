@@ -7,6 +7,6 @@ const categorySchema=new mongoose.Schema({
         unique: true,
         trim: true
     }
-},{timestamps});
+},{timestamps:true});
 
 module.exports=mongoose.model('category',categorySchema);
